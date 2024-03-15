@@ -1194,6 +1194,22 @@ img {
   fill: #f4f4fd;
 }
 
+@media screen and (max-width: 767px) {
+  /* .checkbox-link {
+    flex-direction: column;
+  } */
+
+  .form-checkbox-label {
+    align-items: center;
+    display: flex;
+  }
+
+  .modal {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
 /* Submit button */
 
 .review-form-submit-btn {
