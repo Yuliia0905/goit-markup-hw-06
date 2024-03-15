@@ -924,7 +924,6 @@ img {
 
 @media only screen and (min-width: 768px) {
   .footer-container {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -960,6 +959,11 @@ img {
     padding-bottom: 100px;
   }
 
+  .footer-container {
+    column-gap: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .subscribe-box {
     margin-left: auto;
   }
